@@ -1,0 +1,86 @@
+@import url("es_global.css");
+
+.text
+{
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 10px;
+    font-size: 40px;
+    color: var(--light_text);
+    width: max-content;
+    background-color: var(--h1);
+}
+
+.form_box h1{
+    color: var(--color_h1);
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.erro_box{
+    background-color: var(--bg_erro_box);
+    color: var(--light_text);
+    padding: 5px;
+    text-align: center;
+}
+
+.foto_box{
+    font-size: 16px;
+    max-width: 310px;
+    margin-bottom: 10px;
+}
+
+.form_box{
+    margin: auto;
+    margin-top: 50px;
+    padding: 20px;
+    background-color: var(--bg_formbox);
+    width: max-content;
+}
+
+.form_box label
+{
+    font-weight: bold;
+}
+
+.form_box label, .foto_box{
+    color: var(--h1);
+}
+
+.form_box input, select{
+    width: 310px;
+    height: 30px;
+}
+
+.i_text, textarea, select{
+    border: 1px solid var(--color_border);
+}
+
+.form_box input, textarea, select{
+    display: block;
+    margin-bottom: 15px;
+}
+
+.form_box textarea{
+    resize: none;
+    width: 310px;
+}
+
+.btt_form{
+    cursor: pointer;
+    border: none;
+    background-color: var(--btt_normal);
+    color: var(--light_text);
+    text-transform: uppercase;
+}
+
+.btt_form:hover{
+    transition: 0.5s;
+    background-color: var(--btt_hover);
+}
+
+
+.link_box{
+    text-align: center;
+    color: var(--h1);
+}

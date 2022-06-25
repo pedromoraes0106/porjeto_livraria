@@ -1,0 +1,47 @@
+@import url("es_global.css");
+
+ul
+{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    overflow: hidden;
+    background-color: var(--bg_navbar);
+}
+
+li
+{
+    float: left;
+    padding: 5px 0px 5px 0px;
+}
+
+li a
+{
+    display: block;
+    color: var(--light_text);
+    text-align: center;
+    padding: 20px 18px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+li a:hover
+{
+    transition: 0.5s;
+    background-color: var(--item_hover);
+}
+
+#btt_sair
+{
+    float: right;
+}
+
+.avatar
+{
+    vertical-align: middle;
+    width: 70px;
+    height: 60px;
+    border-radius: 20%;
+    border: 1px solid var(--border_avatar);
+    margin: 0px 10px 0px 10px;
+}

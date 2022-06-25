@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background-image: url("../img/fundo.jpeg");
+}
+
+:root{
+    --bg_formbox: rgb(243, 243, 243);
+    --color_h1: #f00404;
+    --h1: black;
+    --color_border: #D3D6DE;
+    --light_text: #fcefeb;
+    --dark_text: #626364;
+    --btt_normal: #DE282F;
+    --btt_hover: #3560A1;
+    --bg_erro_box: #da7d80;
+    --bg_navbar: #333;
+    --item_hover: #111;
+    --border_avatar: #000000;
+    --bg_box: #e7e68c;
+    --border: #d8d8d8;
+    --title: #fc0d15; 
+    --border_painel: rgb(55, 55, 255);
+    --bg_table: #333;
+    --st_dis: #38B55C;
+    --st_emp: #D64B38;
+}

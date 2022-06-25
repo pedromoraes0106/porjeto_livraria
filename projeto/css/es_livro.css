@@ -1,0 +1,45 @@
+@import url("es_global.css");
+
+table{
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+    background-color: var(--bg_formbox);
+    border-spacing: 0px;
+}
+
+table td{
+    min-width: 120px;
+    max-width: 400px;
+    word-break: break-all;
+    padding: 5px;
+    margin: 0px;
+}
+
+.item_l td{
+    border-bottom: 1px solid var(--border);
+    font-size: 18px;
+}
+
+.title_l td{
+    font-size: 23px;
+    background-color: var(--bg_table);
+    color: var(--light_text);
+    padding-bottom: 10px;
+    border: 2px dotted var(--border_painel);
+}
+
+.title_l a{
+    color: var(--light_text);
+}
+
+.dis{
+    background-color: var(--st_dis);
+    color: var(--light_text);
+}
+
+.emp{
+    background-color: var(--st_emp);
+    color: var(--light_text);
+}
+
